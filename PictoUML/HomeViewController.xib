@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="overlay_grey" translatesAutoresizingMaskIntoConstraints="NO" id="XEA-co-Z18">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="209"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="209" id="x11-Fi-b0T"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="0nc-y8-U3J">
+                    <rect key="frame" x="225" y="8" width="150" height="194"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="En7-Vn-a2g"/>
+                        <constraint firstAttribute="height" constant="194" id="gW1-yH-pGh"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VERTICAL_WEB_maroon" translatesAutoresizingMaskIntoConstraints="NO" id="ZP5-M8-YbQ">
+                    <rect key="frame" x="223" y="476" width="155" height="87"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="155" id="6rf-zS-fAa"/>
+                        <constraint firstAttribute="height" constant="87" id="ado-8F-wWW"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designed by Tope Daramola for CSE 6214 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdj-4b-LDF">
+                    <rect key="frame" x="138" y="571" width="325" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="325" id="QsW-WY-Z2O"/>
+                        <constraint firstAttribute="height" constant="21" id="fCi-dR-Xd7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.41960784313725491" green="0.47058823529411764" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xBa-0D-iMM">
+                    <rect key="frame" x="8" y="254" width="584" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="EhP-FH-kyG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                    <state key="normal" title="Add a New Use Case" backgroundImage="btn1">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pushUseCaseBuilder:" destination="-1" eventType="touchUpInside" id="fSR-hx-Xaq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lu5-vU-3p6">
+                    <rect key="frame" x="8" y="304" width="584" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="gQ8-6d-o7S"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                    <state key="normal" title="View Saved Use Cases" backgroundImage="btn1">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pushSavedUseCaseView:" destination="-1" eventType="touchUpInside" id="zGc-GB-WJh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.96862745098039216" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Lu5-vU-3p6" firstAttribute="centerX" secondItem="ZP5-M8-YbQ" secondAttribute="centerX" id="4SB-n8-foO"/>
+                <constraint firstItem="Lu5-vU-3p6" firstAttribute="trailing" secondItem="xBa-0D-iMM" secondAttribute="trailing" id="7Lo-3O-34e"/>
+                <constraint firstItem="0nc-y8-U3J" firstAttribute="centerX" secondItem="XEA-co-Z18" secondAttribute="centerX" id="7Th-QX-lgm"/>
+                <constraint firstItem="xBa-0D-iMM" firstAttribute="leading" secondItem="Lu5-vU-3p6" secondAttribute="leading" id="Afb-Su-Dqc"/>
+                <constraint firstItem="XEA-co-Z18" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="DVL-sN-Gqn"/>
+                <constraint firstItem="xBa-0D-iMM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="J6g-ZV-8hU"/>
+                <constraint firstAttribute="trailing" secondItem="XEA-co-Z18" secondAttribute="trailing" id="OhZ-g1-iK4"/>
+                <constraint firstItem="XEA-co-Z18" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Oop-HJ-NJW"/>
+                <constraint firstItem="hdj-4b-LDF" firstAttribute="top" secondItem="ZP5-M8-YbQ" secondAttribute="bottom" constant="8" symbolic="YES" id="Reo-nG-ila"/>
+                <constraint firstItem="xBa-0D-iMM" firstAttribute="centerX" secondItem="0nc-y8-U3J" secondAttribute="centerX" id="ZwT-Ue-Fbm"/>
+                <constraint firstItem="xBa-0D-iMM" firstAttribute="top" secondItem="XEA-co-Z18" secondAttribute="bottom" constant="45" id="d6N-lH-naF"/>
+                <constraint firstItem="XEA-co-Z18" firstAttribute="top" secondItem="0nc-y8-U3J" secondAttribute="top" constant="-8" id="dWN-2W-0tj"/>
+                <constraint firstItem="hdj-4b-LDF" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottomMargin" id="ezh-Q3-KUg"/>
+                <constraint firstItem="hdj-4b-LDF" firstAttribute="centerX" secondItem="ZP5-M8-YbQ" secondAttribute="centerX" id="lSc-tv-JP6"/>
+                <constraint firstItem="Lu5-vU-3p6" firstAttribute="top" secondItem="xBa-0D-iMM" secondAttribute="bottom" constant="8" symbolic="YES" id="re6-FS-7KA"/>
+            </constraints>
+            <point key="canvasLocation" x="-171" y="-579"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="VERTICAL_WEB_maroon" width="271" height="151"/>
+        <image name="btn1" width="520" height="60"/>
+        <image name="logo" width="371" height="482"/>
+        <image name="overlay_grey" width="800" height="500"/>
+    </resources>
+</document>

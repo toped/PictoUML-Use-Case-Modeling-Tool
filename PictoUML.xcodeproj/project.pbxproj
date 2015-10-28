@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC6CA21D1BD03E9500062EF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6CA21C1BD03E9500062EF1 /* main.m */; };
+		DC6CA2201BD03E9500062EF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6CA21F1BD03E9500062EF1 /* AppDelegate.m */; };
+		DC6CA2281BD03E9500062EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6CA2271BD03E9500062EF1 /* Assets.xcassets */; };
+		DC6CA22B1BD03E9500062EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6CA2291BD03E9500062EF1 /* LaunchScreen.storyboard */; };
+		DC6CA2361BD03E9500062EF1 /* PictoUMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6CA2351BD03E9500062EF1 /* PictoUMLTests.m */; };
+		DC6CA2411BD03E9500062EF1 /* PictoUMLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6CA2401BD03E9500062EF1 /* PictoUMLUITests.m */; };
+		DC6CA2511BD03EEB00062EF1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6CA24F1BD03EEB00062EF1 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DC6CA2521BD03EEB00062EF1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6CA2501BD03EEB00062EF1 /* HomeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		DC6CA2561BD04E4200062EF1 /* UseCaseBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6CA2541BD04E4200062EF1 /* UseCaseBuilderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DC6CA2571BD04E4200062EF1 /* UseCaseBuilderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6CA2551BD04E4200062EF1 /* UseCaseBuilderViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		DC8F11A01BD698CA004A1547 /* UseCaseFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F119F1BD698CA004A1547 /* UseCaseFlow.m */; settings = {ASSET_TAGS = (); }; };
+		DC8F11A31BD698D8004A1547 /* UseCaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F11A21BD698D8004A1547 /* UseCaseEvent.m */; settings = {ASSET_TAGS = (); }; };
+		DC8F11A61BD69927004A1547 /* UseCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F11A51BD69927004A1547 /* UseCase.m */; settings = {ASSET_TAGS = (); }; };
+		DC8F11AA1BD6DBDC004A1547 /* EventInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F11A81BD6DBDC004A1547 /* EventInputViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DC8F11AB1BD6DBDC004A1547 /* EventInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11A91BD6DBDC004A1547 /* EventInputViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		DC8F11B31BD7E962004A1547 /* PlayBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F11B11BD7E962004A1547 /* PlayBackViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DC8F11B41BD7E962004A1547 /* PlayBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11B21BD7E962004A1547 /* PlayBackViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		DC8F11D81BD80C41004A1547 /* leapfrog__0000_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11C01BD80C40004A1547 /* leapfrog__0000_1.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11D91BD80C41004A1547 /* leapfrog__0001_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11C11BD80C40004A1547 /* leapfrog__0001_2.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11DA1BD80C41004A1547 /* leapfrog__0002_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11C21BD80C40004A1547 /* leapfrog__0002_3.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11DB1BD80C41004A1547 /* leapfrog__0003_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11C31BD80C40004A1547 /* leapfrog__0003_4.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11DC1BD80C41004A1547 /* leapfrog__0004_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11C41BD80C40004A1547 /* leapfrog__0004_5.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11DD1BD80C41004A1547 /* leapfrog__0005_6.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11C51BD80C40004A1547 /* leapfrog__0005_6.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11DE1BD80C41004A1547 /* leapfrog__0006_7.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11C61BD80C40004A1547 /* leapfrog__0006_7.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11DF1BD80C41004A1547 /* leapfrog__0007_8.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11C71BD80C40004A1547 /* leapfrog__0007_8.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11E01BD80C41004A1547 /* leapfrog__0008_9.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11C81BD80C40004A1547 /* leapfrog__0008_9.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11E11BD80C41004A1547 /* leapfrog__0009_10.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11C91BD80C40004A1547 /* leapfrog__0009_10.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11E21BD80C41004A1547 /* leapfrog__0010_11.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11CA1BD80C40004A1547 /* leapfrog__0010_11.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11E31BD80C41004A1547 /* leapfrog__0011_12.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11CB1BD80C40004A1547 /* leapfrog__0011_12.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11E41BD80C41004A1547 /* leapfrog__0012_13.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11CC1BD80C40004A1547 /* leapfrog__0012_13.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11E51BD80C41004A1547 /* leapfrog__0013_14.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11CD1BD80C41004A1547 /* leapfrog__0013_14.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11E61BD80C41004A1547 /* leapfrog__0014_15.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11CE1BD80C41004A1547 /* leapfrog__0014_15.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11E71BD80C41004A1547 /* leapfrog__0015_16.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11CF1BD80C41004A1547 /* leapfrog__0015_16.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11E81BD80C41004A1547 /* leapfrog__0016_17.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11D01BD80C41004A1547 /* leapfrog__0016_17.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11E91BD80C41004A1547 /* leapfrog__0017_18.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11D11BD80C41004A1547 /* leapfrog__0017_18.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11EA1BD80C41004A1547 /* leapfrog__0018_19.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11D21BD80C41004A1547 /* leapfrog__0018_19.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11EB1BD80C41004A1547 /* leapfrog__0019_20.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11D31BD80C41004A1547 /* leapfrog__0019_20.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11EC1BD80C41004A1547 /* leapfrog__0020_21.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11D41BD80C41004A1547 /* leapfrog__0020_21.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11ED1BD80C41004A1547 /* leapfrog__0021_22.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11D51BD80C41004A1547 /* leapfrog__0021_22.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11EE1BD80C41004A1547 /* leapfrog__0022_23.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11D61BD80C41004A1547 /* leapfrog__0022_23.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11EF1BD80C41004A1547 /* leapfrog__0023_24.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F11D71BD80C41004A1547 /* leapfrog__0023_24.png */; settings = {ASSET_TAGS = (); }; };
+		DC8F11F11BD81235004A1547 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8F11F01BD81235004A1547 /* MobileCoreServices.framework */; };
+		DC8F12051BD93393004A1547 /* SavedUseCasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F12031BD93393004A1547 /* SavedUseCasesViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DC8F12061BD93393004A1547 /* SavedUseCasesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8F12041BD93393004A1547 /* SavedUseCasesViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		DC8F120A1BDA6D49004A1547 /* AltFlowListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F12081BDA6D49004A1547 /* AltFlowListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DC8F120B1BDA6D49004A1547 /* AltFlowListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8F12091BDA6D49004A1547 /* AltFlowListViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		DC99D6571BD050E400989320 /* UMLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC99D6551BD050E400989320 /* UMLTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		DC99D6581BD050E400989320 /* UMLTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC99D6561BD050E400989320 /* UMLTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC6CA2321BD03E9500062EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC6CA2101BD03E9500062EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6CA2171BD03E9500062EF1;
+			remoteInfo = PictoUML;
+		};
+		DC6CA23D1BD03E9500062EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC6CA2101BD03E9500062EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6CA2171BD03E9500062EF1;
+			remoteInfo = PictoUML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC6CA2181BD03E9500062EF1 /* PictoUML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictoUML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6CA21C1BD03E9500062EF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC6CA21E1BD03E9500062EF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC6CA21F1BD03E9500062EF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC6CA2271BD03E9500062EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC6CA22A1BD03E9500062EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC6CA22C1BD03E9500062EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6CA2311BD03E9500062EF1 /* PictoUMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictoUMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6CA2351BD03E9500062EF1 /* PictoUMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictoUMLTests.m; sourceTree = "<group>"; };
+		DC6CA2371BD03E9500062EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6CA23C1BD03E9500062EF1 /* PictoUMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictoUMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6CA2401BD03E9500062EF1 /* PictoUMLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictoUMLUITests.m; sourceTree = "<group>"; };
+		DC6CA2421BD03E9500062EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6CA24E1BD03EEB00062EF1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DC6CA24F1BD03EEB00062EF1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DC6CA2501BD03EEB00062EF1 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		DC6CA2531BD04E4200062EF1 /* UseCaseBuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseCaseBuilderViewController.h; sourceTree = "<group>"; };
+		DC6CA2541BD04E4200062EF1 /* UseCaseBuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseCaseBuilderViewController.m; sourceTree = "<group>"; };
+		DC6CA2551BD04E4200062EF1 /* UseCaseBuilderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UseCaseBuilderViewController.xib; sourceTree = "<group>"; };
+		DC8F119E1BD698CA004A1547 /* UseCaseFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseCaseFlow.h; sourceTree = "<group>"; };
+		DC8F119F1BD698CA004A1547 /* UseCaseFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseCaseFlow.m; sourceTree = "<group>"; };
+		DC8F11A11BD698D8004A1547 /* UseCaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseCaseEvent.h; sourceTree = "<group>"; };
+		DC8F11A21BD698D8004A1547 /* UseCaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseCaseEvent.m; sourceTree = "<group>"; };
+		DC8F11A41BD69927004A1547 /* UseCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseCase.h; sourceTree = "<group>"; };
+		DC8F11A51BD69927004A1547 /* UseCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseCase.m; sourceTree = "<group>"; };
+		DC8F11A71BD6DBDC004A1547 /* EventInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventInputViewController.h; sourceTree = "<group>"; };
+		DC8F11A81BD6DBDC004A1547 /* EventInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventInputViewController.m; sourceTree = "<group>"; };
+		DC8F11A91BD6DBDC004A1547 /* EventInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventInputViewController.xib; sourceTree = "<group>"; };
+		DC8F11B01BD7E962004A1547 /* PlayBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayBackViewController.h; sourceTree = "<group>"; };
+		DC8F11B11BD7E962004A1547 /* PlayBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayBackViewController.m; sourceTree = "<group>"; };
+		DC8F11B21BD7E962004A1547 /* PlayBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayBackViewController.xib; sourceTree = "<group>"; };
+		DC8F11C01BD80C40004A1547 /* leapfrog__0000_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0000_1.png; sourceTree = "<group>"; };
+		DC8F11C11BD80C40004A1547 /* leapfrog__0001_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0001_2.png; sourceTree = "<group>"; };
+		DC8F11C21BD80C40004A1547 /* leapfrog__0002_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0002_3.png; sourceTree = "<group>"; };
+		DC8F11C31BD80C40004A1547 /* leapfrog__0003_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0003_4.png; sourceTree = "<group>"; };
+		DC8F11C41BD80C40004A1547 /* leapfrog__0004_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0004_5.png; sourceTree = "<group>"; };
+		DC8F11C51BD80C40004A1547 /* leapfrog__0005_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0005_6.png; sourceTree = "<group>"; };
+		DC8F11C61BD80C40004A1547 /* leapfrog__0006_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0006_7.png; sourceTree = "<group>"; };
+		DC8F11C71BD80C40004A1547 /* leapfrog__0007_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0007_8.png; sourceTree = "<group>"; };
+		DC8F11C81BD80C40004A1547 /* leapfrog__0008_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0008_9.png; sourceTree = "<group>"; };
+		DC8F11C91BD80C40004A1547 /* leapfrog__0009_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0009_10.png; sourceTree = "<group>"; };
+		DC8F11CA1BD80C40004A1547 /* leapfrog__0010_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0010_11.png; sourceTree = "<group>"; };
+		DC8F11CB1BD80C40004A1547 /* leapfrog__0011_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0011_12.png; sourceTree = "<group>"; };
+		DC8F11CC1BD80C40004A1547 /* leapfrog__0012_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0012_13.png; sourceTree = "<group>"; };
+		DC8F11CD1BD80C41004A1547 /* leapfrog__0013_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0013_14.png; sourceTree = "<group>"; };
+		DC8F11CE1BD80C41004A1547 /* leapfrog__0014_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0014_15.png; sourceTree = "<group>"; };
+		DC8F11CF1BD80C41004A1547 /* leapfrog__0015_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0015_16.png; sourceTree = "<group>"; };
+		DC8F11D01BD80C41004A1547 /* leapfrog__0016_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0016_17.png; sourceTree = "<group>"; };
+		DC8F11D11BD80C41004A1547 /* leapfrog__0017_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0017_18.png; sourceTree = "<group>"; };
+		DC8F11D21BD80C41004A1547 /* leapfrog__0018_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0018_19.png; sourceTree = "<group>"; };
+		DC8F11D31BD80C41004A1547 /* leapfrog__0019_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0019_20.png; sourceTree = "<group>"; };
+		DC8F11D41BD80C41004A1547 /* leapfrog__0020_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0020_21.png; sourceTree = "<group>"; };
+		DC8F11D51BD80C41004A1547 /* leapfrog__0021_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0021_22.png; sourceTree = "<group>"; };
+		DC8F11D61BD80C41004A1547 /* leapfrog__0022_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0022_23.png; sourceTree = "<group>"; };
+		DC8F11D71BD80C41004A1547 /* leapfrog__0023_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leapfrog__0023_24.png; sourceTree = "<group>"; };
+		DC8F11F01BD81235004A1547 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DC8F12021BD93393004A1547 /* SavedUseCasesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedUseCasesViewController.h; sourceTree = "<group>"; };
+		DC8F12031BD93393004A1547 /* SavedUseCasesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedUseCasesViewController.m; sourceTree = "<group>"; };
+		DC8F12041BD93393004A1547 /* SavedUseCasesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SavedUseCasesViewController.xib; sourceTree = "<group>"; };
+		DC8F12071BDA6D49004A1547 /* AltFlowListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltFlowListViewController.h; sourceTree = "<group>"; };
+		DC8F12081BDA6D49004A1547 /* AltFlowListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AltFlowListViewController.m; sourceTree = "<group>"; };
+		DC8F12091BDA6D49004A1547 /* AltFlowListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AltFlowListViewController.xib; sourceTree = "<group>"; };
+		DC99D6541BD050E400989320 /* UMLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLTableViewCell.h; sourceTree = "<group>"; };
+		DC99D6551BD050E400989320 /* UMLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLTableViewCell.m; sourceTree = "<group>"; };
+		DC99D6561BD050E400989320 /* UMLTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMLTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC6CA2151BD03E9500062EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8F11F11BD81235004A1547 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6CA22E1BD03E9500062EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6CA2391BD03E9500062EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC6CA20F1BD03E9500062EF1 = {
+			isa = PBXGroup;
+			children = (
+				DC8F11F01BD81235004A1547 /* MobileCoreServices.framework */,
+				DC6CA21A1BD03E9500062EF1 /* PictoUML */,
+				DC6CA2341BD03E9500062EF1 /* PictoUMLTests */,
+				DC6CA23F1BD03E9500062EF1 /* PictoUMLUITests */,
+				DC6CA2191BD03E9500062EF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC6CA2191BD03E9500062EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC6CA2181BD03E9500062EF1 /* PictoUML.app */,
+				DC6CA2311BD03E9500062EF1 /* PictoUMLTests.xctest */,
+				DC6CA23C1BD03E9500062EF1 /* PictoUMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC6CA21A1BD03E9500062EF1 /* PictoUML */ = {
+			isa = PBXGroup;
+			children = (
+				DC8F11BF1BD80C40004A1547 /* Test Images */,
+				DC8F119D1BD698CA004A1547 /* Custom Classes */,
+				DC6CA25D1BD04F8C00062EF1 /* Custom Views */,
+				DC6CA21E1BD03E9500062EF1 /* AppDelegate.h */,
+				DC6CA21F1BD03E9500062EF1 /* AppDelegate.m */,
+				DC6CA24E1BD03EEB00062EF1 /* HomeViewController.h */,
+				DC6CA24F1BD03EEB00062EF1 /* HomeViewController.m */,
+				DC6CA2501BD03EEB00062EF1 /* HomeViewController.xib */,
+				DC8F12021BD93393004A1547 /* SavedUseCasesViewController.h */,
+				DC8F12031BD93393004A1547 /* SavedUseCasesViewController.m */,
+				DC8F12041BD93393004A1547 /* SavedUseCasesViewController.xib */,
+				DC6CA2531BD04E4200062EF1 /* UseCaseBuilderViewController.h */,
+				DC6CA2541BD04E4200062EF1 /* UseCaseBuilderViewController.m */,
+				DC6CA2551BD04E4200062EF1 /* UseCaseBuilderViewController.xib */,
+				DC8F11A71BD6DBDC004A1547 /* EventInputViewController.h */,
+				DC8F11A81BD6DBDC004A1547 /* EventInputViewController.m */,
+				DC8F11A91BD6DBDC004A1547 /* EventInputViewController.xib */,
+				DC8F11B01BD7E962004A1547 /* PlayBackViewController.h */,
+				DC8F11B11BD7E962004A1547 /* PlayBackViewController.m */,
+				DC8F11B21BD7E962004A1547 /* PlayBackViewController.xib */,
+				DC8F12071BDA6D49004A1547 /* AltFlowListViewController.h */,
+				DC8F12081BDA6D49004A1547 /* AltFlowListViewController.m */,
+				DC8F12091BDA6D49004A1547 /* AltFlowListViewController.xib */,
+				DC6CA2271BD03E9500062EF1 /* Assets.xcassets */,
+				DC6CA2291BD03E9500062EF1 /* LaunchScreen.storyboard */,
+				DC6CA22C1BD03E9500062EF1 /* Info.plist */,
+				DC6CA21B1BD03E9500062EF1 /* Supporting Files */,
+			);
+			path = PictoUML;
+			sourceTree = "<group>";
+		};
+		DC6CA21B1BD03E9500062EF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC6CA21C1BD03E9500062EF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC6CA2341BD03E9500062EF1 /* PictoUMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6CA2351BD03E9500062EF1 /* PictoUMLTests.m */,
+				DC6CA2371BD03E9500062EF1 /* Info.plist */,
+			);
+			path = PictoUMLTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		DC6CA23F1BD03E9500062EF1 /* PictoUMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6CA2401BD03E9500062EF1 /* PictoUMLUITests.m */,
+				DC6CA2421BD03E9500062EF1 /* Info.plist */,
+			);
+			path = PictoUMLUITests;
+			sourceTree = "<group>";
+		};
+		DC6CA25D1BD04F8C00062EF1 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC99D6541BD050E400989320 /* UMLTableViewCell.h */,
+				DC99D6551BD050E400989320 /* UMLTableViewCell.m */,
+				DC99D6561BD050E400989320 /* UMLTableViewCell.xib */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		DC8F119D1BD698CA004A1547 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC8F119E1BD698CA004A1547 /* UseCaseFlow.h */,
+				DC8F119F1BD698CA004A1547 /* UseCaseFlow.m */,
+				DC8F11A11BD698D8004A1547 /* UseCaseEvent.h */,
+				DC8F11A21BD698D8004A1547 /* UseCaseEvent.m */,
+				DC8F11A41BD69927004A1547 /* UseCase.h */,
+				DC8F11A51BD69927004A1547 /* UseCase.m */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		DC8F11BF1BD80C40004A1547 /* Test Images */ = {
+			isa = PBXGroup;
+			children = (
+				DC8F11C01BD80C40004A1547 /* leapfrog__0000_1.png */,
+				DC8F11C11BD80C40004A1547 /* leapfrog__0001_2.png */,
+				DC8F11C21BD80C40004A1547 /* leapfrog__0002_3.png */,
+				DC8F11C31BD80C40004A1547 /* leapfrog__0003_4.png */,
+				DC8F11C41BD80C40004A1547 /* leapfrog__0004_5.png */,
+				DC8F11C51BD80C40004A1547 /* leapfrog__0005_6.png */,
+				DC8F11C61BD80C40004A1547 /* leapfrog__0006_7.png */,
+				DC8F11C71BD80C40004A1547 /* leapfrog__0007_8.png */,
+				DC8F11C81BD80C40004A1547 /* leapfrog__0008_9.png */,
+				DC8F11C91BD80C40004A1547 /* leapfrog__0009_10.png */,
+				DC8F11CA1BD80C40004A1547 /* leapfrog__0010_11.png */,
+				DC8F11CB1BD80C40004A1547 /* leapfrog__0011_12.png */,
+				DC8F11CC1BD80C40004A1547 /* leapfrog__0012_13.png */,
+				DC8F11CD1BD80C41004A1547 /* leapfrog__0013_14.png */,
+				DC8F11CE1BD80C41004A1547 /* leapfrog__0014_15.png */,
+				DC8F11CF1BD80C41004A1547 /* leapfrog__0015_16.png */,
+				DC8F11D01BD80C41004A1547 /* leapfrog__0016_17.png */,
+				DC8F11D11BD80C41004A1547 /* leapfrog__0017_18.png */,
+				DC8F11D21BD80C41004A1547 /* leapfrog__0018_19.png */,
+				DC8F11D31BD80C41004A1547 /* leapfrog__0019_20.png */,
+				DC8F11D41BD80C41004A1547 /* leapfrog__0020_21.png */,
+				DC8F11D51BD80C41004A1547 /* leapfrog__0021_22.png */,
+				DC8F11D61BD80C41004A1547 /* leapfrog__0022_23.png */,
+				DC8F11D71BD80C41004A1547 /* leapfrog__0023_24.png */,
+			);
+			path = "Test Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC6CA2171BD03E9500062EF1 /* PictoUML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6CA2451BD03E9500062EF1 /* Build configuration list for PBXNativeTarget "PictoUML" */;
+			buildPhases = (
+				DC6CA2141BD03E9500062EF1 /* Sources */,
+				DC6CA2151BD03E9500062EF1 /* Frameworks */,
+				DC6CA2161BD03E9500062EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictoUML;
+			productName = PictoUML;
+			productReference = DC6CA2181BD03E9500062EF1 /* PictoUML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC6CA2301BD03E9500062EF1 /* PictoUMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6CA2481BD03E9500062EF1 /* Build configuration list for PBXNativeTarget "PictoUMLTests" */;
+			buildPhases = (
+				DC6CA22D1BD03E9500062EF1 /* Sources */,
+				DC6CA22E1BD03E9500062EF1 /* Frameworks */,
+				DC6CA22F1BD03E9500062EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6CA2331BD03E9500062EF1 /* PBXTargetDependency */,
+			);
+			name = PictoUMLTests;
+			productName = PictoUMLTests;
+			productReference = DC6CA2311BD03E9500062EF1 /* PictoUMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC6CA23B1BD03E9500062EF1 /* PictoUMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6CA24B1BD03E9500062EF1 /* Build configuration list for PBXNativeTarget "PictoUMLUITests" */;
+			buildPhases = (
+				DC6CA2381BD03E9500062EF1 /* Sources */,
+				DC6CA2391BD03E9500062EF1 /* Frameworks */,
+				DC6CA23A1BD03E9500062EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6CA23E1BD03E9500062EF1 /* PBXTargetDependency */,
+			);
+			name = PictoUMLUITests;
+			productName = PictoUMLUITests;
+			productReference = DC6CA23C1BD03E9500062EF1 /* PictoUMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC6CA2101BD03E9500062EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tope Daramola";
+				TargetAttributes = {
+					DC6CA2171BD03E9500062EF1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DC6CA2301BD03E9500062EF1 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DC6CA2171BD03E9500062EF1;
+					};
+					DC6CA23B1BD03E9500062EF1 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DC6CA2171BD03E9500062EF1;
+					};
+				};
+			};
+			buildConfigurationList = DC6CA2131BD03E9500062EF1 /* Build configuration list for PBXProject "PictoUML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC6CA20F1BD03E9500062EF1;
+			productRefGroup = DC6CA2191BD03E9500062EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC6CA2171BD03E9500062EF1 /* PictoUML */,
+				DC6CA2301BD03E9500062EF1 /* PictoUMLTests */,
+				DC6CA23B1BD03E9500062EF1 /* PictoUMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC6CA2161BD03E9500062EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8F11EE1BD80C41004A1547 /* leapfrog__0022_23.png in Resources */,
+				DC8F120B1BDA6D49004A1547 /* AltFlowListViewController.xib in Resources */,
+				DC8F11AB1BD6DBDC004A1547 /* EventInputViewController.xib in Resources */,
+				DC8F11DF1BD80C41004A1547 /* leapfrog__0007_8.png in Resources */,
+				DC8F11E61BD80C41004A1547 /* leapfrog__0014_15.png in Resources */,
+				DC8F11DD1BD80C41004A1547 /* leapfrog__0005_6.png in Resources */,
+				DC6CA2571BD04E4200062EF1 /* UseCaseBuilderViewController.xib in Resources */,
+				DC8F11E41BD80C41004A1547 /* leapfrog__0012_13.png in Resources */,
+				DC6CA22B1BD03E9500062EF1 /* LaunchScreen.storyboard in Resources */,
+				DC8F11E51BD80C41004A1547 /* leapfrog__0013_14.png in Resources */,
+				DC8F11E31BD80C41004A1547 /* leapfrog__0011_12.png in Resources */,
+				DC8F11E01BD80C41004A1547 /* leapfrog__0008_9.png in Resources */,
+				DC8F11EA1BD80C41004A1547 /* leapfrog__0018_19.png in Resources */,
+				DC8F11EB1BD80C41004A1547 /* leapfrog__0019_20.png in Resources */,
+				DC8F11E71BD80C41004A1547 /* leapfrog__0015_16.png in Resources */,
+				DC8F11DA1BD80C41004A1547 /* leapfrog__0002_3.png in Resources */,
+				DC8F11EC1BD80C41004A1547 /* leapfrog__0020_21.png in Resources */,
+				DC8F11E91BD80C41004A1547 /* leapfrog__0017_18.png in Resources */,
+				DC8F11ED1BD80C41004A1547 /* leapfrog__0021_22.png in Resources */,
+				DC8F11E81BD80C41004A1547 /* leapfrog__0016_17.png in Resources */,
+				DC99D6581BD050E400989320 /* UMLTableViewCell.xib in Resources */,
+				DC8F11DC1BD80C41004A1547 /* leapfrog__0004_5.png in Resources */,
+				DC8F11EF1BD80C41004A1547 /* leapfrog__0023_24.png in Resources */,
+				DC8F11B41BD7E962004A1547 /* PlayBackViewController.xib in Resources */,
+				DC8F11D81BD80C41004A1547 /* leapfrog__0000_1.png in Resources */,
+				DC8F11DB1BD80C41004A1547 /* leapfrog__0003_4.png in Resources */,
+				DC8F11E11BD80C41004A1547 /* leapfrog__0009_10.png in Resources */,
+				DC8F11D91BD80C41004A1547 /* leapfrog__0001_2.png in Resources */,
+				DC6CA2281BD03E9500062EF1 /* Assets.xcassets in Resources */,
+				DC6CA2521BD03EEB00062EF1 /* HomeViewController.xib in Resources */,
+				DC8F11E21BD80C41004A1547 /* leapfrog__0010_11.png in Resources */,
+				DC8F12061BD93393004A1547 /* SavedUseCasesViewController.xib in Resources */,
+				DC8F11DE1BD80C41004A1547 /* leapfrog__0006_7.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6CA22F1BD03E9500062EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6CA23A1BD03E9500062EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC6CA2141BD03E9500062EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC99D6571BD050E400989320 /* UMLTableViewCell.m in Sources */,
+				DC8F11B31BD7E962004A1547 /* PlayBackViewController.m in Sources */,
+				DC8F120A1BDA6D49004A1547 /* AltFlowListViewController.m in Sources */,
+				DC6CA2561BD04E4200062EF1 /* UseCaseBuilderViewController.m in Sources */,
+				DC8F11A31BD698D8004A1547 /* UseCaseEvent.m in Sources */,
+				DC6CA2201BD03E9500062EF1 /* AppDelegate.m in Sources */,
+				DC8F11A01BD698CA004A1547 /* UseCaseFlow.m in Sources */,
+				DC8F11A61BD69927004A1547 /* UseCase.m in Sources */,
+				DC6CA21D1BD03E9500062EF1 /* main.m in Sources */,
+				DC8F12051BD93393004A1547 /* SavedUseCasesViewController.m in Sources */,
+				DC6CA2511BD03EEB00062EF1 /* HomeViewController.m in Sources */,
+				DC8F11AA1BD6DBDC004A1547 /* EventInputViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6CA22D1BD03E9500062EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6CA2361BD03E9500062EF1 /* PictoUMLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6CA2381BD03E9500062EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6CA2411BD03E9500062EF1 /* PictoUMLUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC6CA2331BD03E9500062EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC6CA2171BD03E9500062EF1 /* PictoUML */;
+			targetProxy = DC6CA2321BD03E9500062EF1 /* PBXContainerItemProxy */;
+		};
+		DC6CA23E1BD03E9500062EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC6CA2171BD03E9500062EF1 /* PictoUML */;
+			targetProxy = DC6CA23D1BD03E9500062EF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC6CA2291BD03E9500062EF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6CA22A1BD03E9500062EF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC6CA2431BD03E9500062EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC6CA2441BD03E9500062EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC6CA2461BD03E9500062EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PictoUML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topedaram.PictoUML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC6CA2471BD03E9500062EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PictoUML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topedaram.PictoUML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC6CA2491BD03E9500062EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PictoUMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topedaram.PictoUMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictoUML.app/PictoUML";
+			};
+			name = Debug;
+		};
+		DC6CA24A1BD03E9500062EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PictoUMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topedaram.PictoUMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictoUML.app/PictoUML";
+			};
+			name = Release;
+		};
+		DC6CA24C1BD03E9500062EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PictoUMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topedaram.PictoUMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PictoUML;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC6CA24D1BD03E9500062EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PictoUMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topedaram.PictoUMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PictoUML;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC6CA2131BD03E9500062EF1 /* Build configuration list for PBXProject "PictoUML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6CA2431BD03E9500062EF1 /* Debug */,
+				DC6CA2441BD03E9500062EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6CA2451BD03E9500062EF1 /* Build configuration list for PBXNativeTarget "PictoUML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6CA2461BD03E9500062EF1 /* Debug */,
+				DC6CA2471BD03E9500062EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6CA2481BD03E9500062EF1 /* Build configuration list for PBXNativeTarget "PictoUMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6CA2491BD03E9500062EF1 /* Debug */,
+				DC6CA24A1BD03E9500062EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6CA24B1BD03E9500062EF1 /* Build configuration list for PBXNativeTarget "PictoUMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6CA24C1BD03E9500062EF1 /* Debug */,
+				DC6CA24D1BD03E9500062EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC6CA2101BD03E9500062EF1 /* Project object */;
+}
